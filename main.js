@@ -27,9 +27,11 @@ function reqListener() {
 
       let storyInfo = `
             <h1>The Story</h1>
-                <p class="bio"> ${data.bio}
-                <img src="${data.avatar_url}">
-                </p>
+            <div class="bio-body">
+                <p class="bio"> ${data.bio}</p>
+              <img src="${data.avatar_url}">
+            </div>
+
 
               `;
     header.innerHTML = heading;
@@ -40,6 +42,6 @@ function reqListener() {
 
 
 let req = new XMLHttpRequest();
-req.open("GET", "http://192.168.1.12:8000/octocat");
+req.open("GET", "https://api.github.com/users/jchaasis");
 req.addEventListener("load", reqListener);
 req.send();

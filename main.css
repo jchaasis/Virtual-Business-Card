@@ -5,7 +5,6 @@ width: 900px;
 background-color: rgb(168, 168, 168);
 margin-left: 20%;
 margin-top: 10%;
-
 }
 
 header {
@@ -17,7 +16,6 @@ font-family: 'Anton', sans-serif;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 	}
-
 
 main {
   display: flex;
@@ -38,7 +36,6 @@ main h1 {
 .basics {
 width: 40%;
 margin-right:10px;
-
 }
 
 ul {
@@ -49,24 +46,25 @@ ul {
 
 .list-object {
   color: green;
-
 }
 
 .story {
   width: 60%;
 }
 
-/*.story p {
-  border-left: 1px dotted #9f9f9f;
-  padding-left: 10px;
-}*/
+.bio-body{
+  display:flex;
+}
+.story p {
+padding-right: 20px;
+}
 
 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  float:right;
 }
+
 
 a {
   color: black;
